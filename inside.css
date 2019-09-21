@@ -1,0 +1,147 @@
+
+*{margin: 0; padding: 0}
+
+body{
+    background-color: #FAE5D3 ;
+}
+#wrapper{
+    width: 100%;
+    margin: 15px auto;
+}
+
+#header{
+    
+     background:linear-gradient(45deg,#ff0081,#6827b0);
+    padding: 15px;
+    border-bottom: linear-gradient(45deg,#ff0081,#6827b0);
+}
+#header h2{
+    color: beige;
+    font-family:tahoma;
+}
+#header p{
+    color: grey;
+    font-family: arial;
+}
+#nav{
+    background-color: white;
+    height: 38.5px;
+     border-bottom: 1.5px solid #6827b0;
+}
+#nav ul{
+    background-color: white;
+    list-style-type: none;
+    z-index: 999;
+    
+}
+#nav ul li{
+    float: left;
+    border-right:1.3px solid #BDBDBD;
+
+    
+}
+#nav ul li:last-child{
+    border:none;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    display: block;
+    padding: 10px 20px;
+     transition: 0.7s;
+    
+}
+#nav ul li a:hover{
+     color:white;
+     background:linear-gradient(45deg,#ff0081,#6827b0);
+    font-weight: bold;
+    padding: 10px 41px;
+     
+}
+
+#nav ul li{
+    
+    position: relative;
+    
+}
+
+#nav ul li ul{
+    
+    position: absolute; 
+    left: -99999px;
+    
+}
+
+
+#nav ul li:hover ul{
+    
+    left:0;
+    
+   
+}
+#nav ul li ul li{
+    
+    float: none;
+    border-right: none;
+    border-bottom: 1.3px  solid #BDBDBD;
+    width: 140px;
+
+}
+#nav ul li ul li:first-child{
+    border-top: 1.3px solid #BDBDBD;
+
+} 
+
+#content_wrapper{
+    background-color: white;
+    padding: 10px;
+
+    overflow: hidden;
+}
+
+#content{
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+#sidebar{
+    width: 300px;
+    float: left;
+    margin-left: 25px;
+    
+}
+
+#sidebar ul{
+    list-style-type: circle;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color:#990000;
+    display: block;
+ 
+    
+}
+#content h2{
+    color: #666699;
+    margin-top: 20px;
+    
+}
+
+
+
+
+#sidebar h2{
+    color: #666699;
+    margin-bottom: 3px;
+}
+
+#footer{
+    background-color: #000d1a;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,279 @@
+
+*{margin: 0; padding: 0}
+
+body{
+    background-color: #FAE5D3 ;
+    margin: 10px auto;
+}
+#wrapper{
+    width: 960px;
+    margin: 15px auto;
+}
+
+#header{
+  
+    background:linear-gradient(45deg,#ff0081,#6827b0);
+    padding: 15px;
+    border-bottom: linear-gradient(45deg,#ff0081,#6827b0);
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    
+}
+
+#header h2{
+    color: beige;
+    font-family:tahoma;
+   
+}
+}
+#header p{
+    color: grey;
+    font-family: arial;
+}
+#nav{
+    background-color: white;
+    height: 38.5px;
+   
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  
+}
+#nav ul{
+    background-color: white;
+    list-style-type: none;
+    z-index: 999;
+    
+}
+#nav ul li{
+    float: left;
+    border-right:1.3px solid #BDBDBD;
+
+    
+}
+#nav ul li:last-child{
+    border:none;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    display: block;
+    padding: 10px 20px;
+    
+   -webkit-transition: 0.7s all ease;
+   -moz-transition: 0.7s all ease;
+    
+}
+#nav ul li a:hover{
+     color:white;
+     background:linear-gradient(45deg,#ff0081,#6827b0);
+     padding: 10px 30px;
+     font-weight: bold;
+   
+     
+    
+}
+
+#nav ul li{
+    
+    position: relative;
+    
+}
+
+#nav ul li ul{
+    
+    position: absolute; 
+    left: -99999px;
+    
+}
+
+
+#nav ul li:hover ul{
+    
+    left:0;
+    
+   
+}
+#nav ul li ul li{
+    
+    float: none;
+    border-right: none;
+    border-bottom: 1.3px  solid #BDBDBD;
+    width: 140px;
+    position: relative;
+
+}
+
+#nav ul li ul li ul{
+    position: absolute;
+    top: -999999px;
+}
+#nav ul li ul li:hover ul{
+    top: 0;
+    left: 140px;
+}
+#nav ul li ul li ul li{
+    border-left: 1.3px solid #BDBDBD;
+}
+#nav ul li ul li ul li:last-child{
+    border-left: 1.3px solid #BDBDBD;
+}
+
+#nav ul li ul li:first-child{
+    border-top: 1.3px solid #BDBDBD;
+    
+
+} 
+
+#content_wrapper{
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+     border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#content{
+    width: 618px;
+    margin-right: 20px;
+    float: left;
+}
+#sidebar{
+    width: 300px;
+    float: left
+
+    
+}
+#sidebar ul{
+    list-style-type: circle;
+    margin-bottom: 36px;
+    
+}
+#sidebar ul li a{
+    text-decoration: none;
+    color:#990000;
+    display: block;
+    
+    
+    
+ 
+    
+}
+#content h2{
+    color: #666699;
+    margin-bottom: 6px;
+    
+}
+#content h3{
+    color: #666699;
+    margin-top: 20px;
+    
+}
+
+#content p{
+    margin-top: 8px;
+    font-size: 17px;
+    text-align: justify;
+}
+#sidebar h2{
+    color: #666699;
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
+
+#footer{
+    background-color: #000d1a;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+#img_wrap img{
+    width: 75px;
+    height: 90px;
+    background: #fff;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    float: left;
+    padding: 3px;
+    
+}
+#img_wrap p{
+    float: left;
+    width: 500px;
+    margin-bottom: 8px;
+}
+#img_wrap{
+    margin-top: 10px;
+   
+}
+#main_article_single{
+    margin-bottom: 15px;
+    border-bottom: 1.5px solid #000D1A;
+    overflow: hidden;
+    
+}
+
+#Main_sidebar{
+    border-bottom: 1.5px solid #000D1A;
+   
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+#Main_sidebar ul li{
+    padding-left: 25px;
+}
+#Main_sidebar ul li a{
+    border-bottom: 1px solid #F35C27;
+}
+#Main_sidebar h2{
+    margin-bottom: 10px;
+}
+.main_wrap{
+    width: 100%;
+}
+.wrap{
+    width:  960px;
+    display: block;
+    margin: 0 auto;
+}
+
+.header_bg{
+    background: linear-gradient(45deg,#ff0081,#6827b0);
+}
+.nav_bg{
+    background: white;
+    border-top: 1.5px solid #6827b0;
+    border-bottom: 1.5px solid #6827b0;
+}
+.slider_bg{
+    background: #222222;
+    
+}
+#slider_wrapper{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.contat_bg{
+    background:#F0EAD8;
+}
+
+.footer_bg{
+    background: #000d1a;
+        
+}
+
+video{
+    width: 300px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    margin-top: 20px;
+   
+}
+
+
+
+
+
